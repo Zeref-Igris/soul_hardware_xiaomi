@@ -13,9 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-ifeq ($(BOARD_VENDOR),xiaomi)
-
 include $(call all-subdir-makefiles)
-
-endif
